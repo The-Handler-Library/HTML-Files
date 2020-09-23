@@ -1,0 +1,89 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper {
+    background: url(overlay.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 80px !important;
+    width: 100% !important;
+    background: rgba(2,0,0,1);
+}
+.logo{
+    width: 140px;
+    height: 80px;
+    padding: 0px 0px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px; 
+    
+}
+.navbar ul li{
+    List-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    Line-height: 80px;
+}
+
+.navbar ul li a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    padding: 40px 65px;
+    font-family: 'bebas', sans-serif;
+    
+} 
+.navbar ul li a:hover{
+   
+    color:aqua;
+}
+.navbar ul li a.active
+.navbar ul li a:hover{
+   
+    border-radius: 2px;
+}
+.wrapper .center{
+    position:absolute;
+    top: 50%;
+    Left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'bebas', sans-serif;
+    user-select: none;
+}
+.center h1{
+    color:white;
+    font-size:120px;
+    font-weight:bold;
+    height:40px;
+    width:1800px;
+    text-align: left;
+}
+.container{
+    text-align center;
+    margin-top: 360px
+}
+.btn{
+    border:1px solid #a9ceed;
+    background: none;
+    padding: 20px 20px;
+    font-size:40px;
+    font-family: "bebas";
+    cursor:pointer;
+    margin: 10px;
+    transition: 0.9s;
+}
+.btn1, .btn2{
+    color: azure;
+}
+
+.btn1:hover, .btn2:hover{
+    color:aqua
+}
