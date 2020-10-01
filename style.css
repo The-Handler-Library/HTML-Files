@@ -6,38 +6,35 @@
 
 
 .wrapper {
-    background: url(overlay.jpg) no-repeat;
+    background: url(library.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
 .navbar{
-    height: 80px !important;
+    height: 10em !important;
     width: 100% !important;
-    background: rgba(2,0,0,1);
+    background: rgba(10,10,0,1);
 }
 .logo{
-    width: 140px;
-    height: 80px;
-    padding: 0px 0px;
+    width: 10em;
+    height: 10em;
 }
 .navbar ul{
     float: right;
-    margin-right: 20px; 
+    margin-right: 2em; 
     
 }
 .navbar ul li{
-    List-style: none;
-    margin: 0 8px;
+    list-style-type: circle;
+    margin: 5em;
     display: inline-block;
-    Line-height: 80px;
+    line-height: 1;
 }
 
 .navbar ul li a{ 
-    text-decoration: none;
     color: white;
-    font-size: 50px;
-    padding: 40px 65px;
+    font-size: 1.6;
     font-family: 'bebas', sans-serif;
     
 } 
@@ -51,24 +48,22 @@
     border-radius: 2px;
 }
 .wrapper .center{
-    position:absolute;
-    top: 50%;
-    Left: 55%;
-    transform: translate(-50%, -50%);
+    position:relative;
+    top: 2em;
+    left: 5em;
     font-family: 'bebas', sans-serif;
     user-select: none;
 }
 .center h1{
     color:white;
-    font-size:120px;
+    font-size:5em;
     font-weight:bold;
-    height:40px;
-    width:1800px;
-    text-align: left;
+    height:4em;
+    width:10em;
+    text-align: center;
 }
 .container{
     text-align center;
-    margin-top: 360px
 }
 .btn{
     border:1px solid #a9ceed;
