@@ -14,11 +14,14 @@
 .navbar{
     height: 10em !important;
     width: 100% !important;
-    background: rgba(10,10,0,1);
+    background-color:  black;
+    opacity: 0.90;
+    filter: alpha(opacity=50);
 }
 .logo{
-    width: 10em;
-    height: 10em;
+    width: 11em;
+    height: 11em;
+    opacity:100%
 }
 .navbar ul{
     float: right;
@@ -27,7 +30,7 @@
 }
 .navbar ul li{
     list-style-type: circle;
-    margin: 5em;
+    margin: 2em;
     display: inline-block;
     line-height: 1;
 }
@@ -38,6 +41,10 @@
     font-family: 'bebas', sans-serif;
     
 } 
+.navbar ul li a#onlink{
+    background: #808080;
+    color: #ffffff;
+}
 .navbar ul li a:hover{
    
     color:aqua;
