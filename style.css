@@ -14,18 +14,18 @@
 .navbar{
     height: 10em !important;
     width: 100% !important;
-    background-color:  black;
-    opacity: 0.90;
-    filter: alpha(opacity=50);
+    background-color:  white;
+    opacity: 0.80;
 }
 .logo{
     width: 11em;
     height: 11em;
-    opacity:100%
+    opacity: 150%;
+
 }
 .navbar ul{
+    display: inline-block;
     float: right;
-    margin-right: 2em; 
     
 }
 .navbar ul li{
@@ -35,16 +35,15 @@
     line-height: 1;
 }
 
-.navbar ul li a{ 
-    color: white;
-    font-size: 1.6;
-    font-family: 'bebas', sans-serif;
+.navbar ul li a {
+    display: inline;
+    color: #0788ba;
+    font-size: larger;
+    font-family: Gill Sans, sans-serif;
+    text-decoration: none;
     
 } 
-.navbar ul li a#onlink{
-    background: #808080;
-    color: #ffffff;
-}
+
 .navbar ul li a:hover{
    
     color:aqua;
@@ -58,7 +57,7 @@
     position:relative;
     top: 2em;
     left: 5em;
-    font-family: 'bebas', sans-serif;
+    font-family: Gill Sans, sans-serif;
     user-select: none;
 }
 .center h1{
@@ -68,24 +67,27 @@
     height:4em;
     width:10em;
     text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: chocolate;
 }
 .container{
     text-align center;
 }
 .btn{
-    border:1px solid #a9ceed;
-    background: none;
+    border: 1px solid #a9ceed;
     padding: 20px 20px;
-    font-size:40px;
-    font-family: "bebas";
-    cursor:pointer;
+    font-size: 40px;
+    font-family: Gill Sans, sans-serif;
+    cursor: pointer;
     margin: 10px;
-    transition: 0.9s;
+    opacity: 0.86;
 }
 .btn1, .btn2{
-    color: azure;
+    color: #2e5d5d;
 }
 
 .btn1:hover, .btn2:hover{
     color:aqua
+
 }
+
