@@ -6,7 +6,7 @@
 
 
 .wrapper {
-    background: url(library.jpg) no-repeat;
+    background: url(image/library.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
