@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name=viewport content = "width=device-width, initial-scale=1">
     <title> Home Page </title>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -18,7 +18,7 @@
         
         <nav class= "navbar">
             
-            <img class="logo" src="images/logo2.jpeg">
+            <img class="logo" src="images/logo.jpeg">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.html">About</a></li>
