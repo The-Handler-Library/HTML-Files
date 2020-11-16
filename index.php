@@ -11,8 +11,18 @@
                 }
                 
                 ?>
-                <button onclick="window.location.href='login.php';" class="btn btn1">Search For Books</button>
-                <button onclick="window.location.href='login.php';" class="btn btn2">Chat With Friends</button>
+                 <?php
+                if(isset($_SESSION["useruid"])){
+                    echo "<li><a href='search.php'>Search for books</a></li>";
+                    echo "<li><a href='message.php'>Chat with friends</a></li>";
+                }
+                else{
+                    echo "<li><a href='signup.php'>Signup to create an account</a></li>";
+                    echo "<li><a href='login.php'>Login to search our inventory</a></li>";
+                    
+                    
+                    }
+                ?>
             </div>
  <?php
     include_once 'footer.php';
