@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name=viewport content = "width=device-width, initial-scale=1">
     <title> Home Page </title>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="/style.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -27,7 +27,8 @@
                 
                 <?php
                 if(isset($_SESSION["useruid"])){
-                    echo "<li><a href='profile.php'>profile Page</a></li>";
+                    echo "<li><a href='profile.php'>Profile Page</a></li>";
+                    echo "<li><a href='friends.php'>Friends</a></li>";
                     echo "<li><a href='logout.inc.php'>Log out</a></li>";
                 }
                 else{

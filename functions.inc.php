@@ -127,3 +127,18 @@ function loginUser($conn, $username, $pwd){
         exit();
     }
 }
+
+function userlist($conn, $username) {
+    $sql = "SELECT usersId, usersName FROM users WHERE usersUid != ?;";
+    $stmt = mysqli_stmt_init($conn);
+    if(!mysqli_stmt_prepare($stmt, $sql)){
+     header("location: signup.php?error=stmtfailed");   
+     exit();
+    }
+    
+    mysqli_stmt_bind_param($stmt, "s", $username);
+    mysqli_stmt_execute($stmt);
+    
+    $resultData = mysqli_stmt_get_result($stmt);
+    return $resultData;
+}
