@@ -36,7 +36,7 @@
             echo "<p>Username is already taken.</p>";
         }
           else if ($_GET["error"] == "none"){
-            echo "<p>You have successfully signed in.</p>";
+            echo "<p>You have successfully signed up.</p>";
         }
     }
 

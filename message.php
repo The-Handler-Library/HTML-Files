@@ -2,7 +2,7 @@
     include_once 'header.php';
 ?>
 		<?php
-			include_once 'send-message.php';
+			include_once 'my-messages.php';
 		?>
 
 

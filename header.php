@@ -24,6 +24,8 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="library_db.php">Catalogue</a></li>
+                <li><a href="store.html">Store</a></li>
                 
                 <?php
                 if(isset($_SESSION["useruid"])){
