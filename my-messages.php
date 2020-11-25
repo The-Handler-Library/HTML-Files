@@ -26,8 +26,8 @@ if (isset($_GET['mid'])) {
  ?>
 <h1>My Messages</h1>
 <?php
-$messages = DB::query(' SELECT messages.*, users.usersName FROM messages, users WHERE receiver=:receiver OR sender=:sender AND users.usersId = messages.sender', array(':receiver'=>$userid, ':sender'=>$userid));
-print_r($messages);
+$messages = DB::query('SELECT messages.*, users.usersName FROM messages, users WHERE messages.receiver=:receiver OR messages.sender=:sender AND users.usersId = messages.sender', array(':receiver'=>$userid, ':sender'=>$userid));
+
 foreach ($messages as $message) {
 
     if(strlen($message['body']) > 10){
@@ -37,10 +37,10 @@ foreach ($messages as $message) {
     }
 
     if ($message['red'] == 0) {
-      echo "<a href='my-messages.php?mid=".$message['id']."'><strong>".$m."</strong></a> sent by ".$message['username'].'<hr />';
+      echo "<a href='my-messages.php?mid=".$message['id']."'><strong>".$m."</strong></a> sent by ".$message['usersName'].'<hr />';
 
     } else {
-      echo "<a href='my-messages.php?mid=".$message['id']."'>".$m."</a> sent by ".$message['username'].'<hr />';
+      echo "<a href='my-messages.php?mid=".$message['id']."'>".$m."</a> sent by ".$message['usersName'].'<hr />';
 
     }
 

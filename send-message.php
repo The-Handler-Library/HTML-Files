@@ -6,13 +6,13 @@ require_once('functions.inc.php');
 
 if(isset($_POST['send'])){
 
-    //if(DB::query('SELECT usersId FROM users WHERE usersId=:receiver', array(':receiver'=>$_GET['receiver']))) {
+    if(DB::query('SELECT usersId FROM users WHERE usersId=:receiver', array(':receiver'=>$_GET['receiver']))) {
 
         DB::query('INSERT INTO messages (body, sender, receiver, red) VALUES (:body, :sender, :receiver, 0)', array(':body'=>$_POST['body'], ':sender'=>$_SESSION["userid"], ':receiver'=>htmlspecialchars($_GET['receiver'])));
         echo "Message Sent!";
-    /*} else {
+    } else {
         die('Invalid ID!');
-    }*/
+    }
 }
  ?>
 <h1>Send a Messsage</h1>
