@@ -14,7 +14,7 @@
     
     <title> Home Page </title>
     
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
   
 
 
@@ -26,7 +26,7 @@
         
         <nav class= "navbar">
             
-            <img class="logo" src="logo2.jpeg">
+            <img class="logo" src="images/logo.jpeg">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>

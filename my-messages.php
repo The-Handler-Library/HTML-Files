@@ -26,7 +26,7 @@ if (isset($_GET['mid'])) {
  ?>
 <h1>My Messages</h1>
 <?php
-$messages = DB::query('SELECT messages.*, users.usersName FROM messages, users WHERE messages.receiver=:receiver OR messages.sender=:sender AND users.usersId = messages.sender', array(':receiver'=>$userid, ':sender'=>$userid));
+$messages = DB::query('SELECT messages.*, users.usersName FROM messages, users WHERE (messages.receiver=:receiver OR messages.sender=:sender) AND users.usersId = messages.sender', array(':receiver'=>$userid, ':sender'=>$userid));
 
 foreach ($messages as $message) {
 
