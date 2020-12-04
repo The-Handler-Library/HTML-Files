@@ -17,7 +17,6 @@
 <style>
     
     .wrapper {
-    background: linear-gradient(gray, darkgray);
     background: URL(overlay6.jpg)repeat;
     background-size: 100%;
     

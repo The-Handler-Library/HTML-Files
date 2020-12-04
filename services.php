@@ -15,7 +15,6 @@
     <link href="style.css" rel="stylesheet" type="text/css">
   <style>
     .wrapper {
-   /* background-image: linear-gradient(to bottom right, cyan, blue);*/
     background: URL(overlay6.jpg)repeat;
     background-size: cover;
     height: 100vh;

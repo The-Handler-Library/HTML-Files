@@ -16,7 +16,7 @@
                 <div class="btn1">
                   <?php
                 if(isset($_SESSION["useruid"])){
-                    echo "<li><a href='store.html'>Search for books</a></li>";
+                    echo "<li><a href='store.php'>Search for books</a></li>";
                   
                 }
                 else{

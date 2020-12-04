@@ -1,5 +1,5 @@
 <?php
-include('DB.php');
+include('classes/DB.php');
 require_once('header.php');
 require_once('functions.inc.php');
 

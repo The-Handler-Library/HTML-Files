@@ -377,3 +377,217 @@ hr{
       margin-left:auto;
       margin-right:auto;
 }
+/* ----------------------------------------- */
+/* store css */
+html, body {
+    background-color: #364b6e;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* online store heading */ 
+h7 {
+    font-size: 50px;
+    color: lightgray;
+    font-family: 'righteous', 'bebas';
+}
+
+/* subject headings */
+h2{
+    font-size: 35px;
+
+}
+
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-image {
+    height: 250px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    border-color: aqua;
+    border-bottom-color: black;
+    border-right-color: black;
+
+}
+
+.shop-item-details {
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    text-align: center;
+    color: #00FFFF;
+}
+
+.shop-items {
+    justify-content: space-around;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+  background-color: #00FFFF;
+  color: white;
+    border-color: black;
+    border: 12px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+     display: block;
+      margin-left:auto;
+      margin-right:auto;
+    font-family: 'righteous', 'bebas';
+}
+
+
+button:hover {
+  background-color: black;
+    color: #00FFFF;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: black;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #00FFFF;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    font-family: 'righteous', 'bebas';
+    color: white;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: black;
+}
+
+/* remove button */
+.btn-danger {
+    color: white;
+    background-color: #00FFFF;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: black;
+    color: #00FFFF;
+}
+
+/* quantity scroller */
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: lightgray;
+    color: black;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #00FFFF;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* purchase button */
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    font-family: 'righteous', 'bebas';
+}
+
+/* catalog table */
+ table, th, td {
+        border: 1px solid #00FFFF;
+        }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        color: black;
+    }
+    th {
+        background-color: #364b6e;
+        color: #00FFFF;
+    }
+    th, td {
+        padding: 5px;
+    }

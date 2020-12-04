@@ -1,14 +1,31 @@
+<?php
+    include_once 'header.php';
+?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Capstone Library > Store | Store</title>
-        <link rel="shortcut icon" type="image/png" href="images/tcl_aqua_logo.jpg"
-         <link rel="stylesheet" type="text/css">
+        <title>The Handler Library | Store</title>
+        <link rel="shortcut icon" type="image/png" href="images/tcl_aqua_logo.jpg">
+         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="store.js" async></script>
     </head>
     <body>
+        <style>
+            .band-name band-name-large{
+                font-size: 12px;
+            }    
+            .section-header{
+            color: aqua;
+            }
+            .wrapper{
+                background-image: none;
+            }
+        
+        </style>
+        
+        
         <header class="main-header">
-            <h1 class="band-name band-name-large">The Capstone Library | Online Store </h1>
+            <h7 class="band-name band-name-large">The Handler Library | Online Store </h7>
         </header>
         <section class="container content-section">
             <h2 class="section-header">Computer Science</h2>
@@ -17,38 +34,38 @@
                     <span class="shop-item-title">Compilers: Principles, Techniques, and Tools</span>
                     <img class="shop-item-image" src="images/books/Compilers.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$12.99</span>
+                        <span class="shop-item-price">$12.99</span> <br>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div> <br>
                 <div class="shop-item">
                     <span class="shop-item-title">Computer Networking: A Top-Down Approach</span>
                     <img class="shop-item-image" src="images/books/CompNet.jpg">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
+                    </div> <br>
                 <div class="shop-item">
                     <span class="shop-item-title">Computer Organization and Design: The Hardware/Software Interface</span>
                     <img class="shop-item-image" src="images/books/CompOrg.jpg">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
+                    </div> <br>
                  <div class="shop-item">
                     <span class="shop-item-title">Data Abstraction & Problem Solving with C++: Walls and Mirrors</span>
                     <img class="shop-item-image" src="images/books/DataAbs.jpg">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
+                    </div> <br>
                  <div class="shop-item">
                     <span class="shop-item-title">Fundamentals of Web Development</span>
                     <img class="shop-item-image" src="images/books/WebDev.jpg">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
+                    </div> <br>
                 <div class="shop-item">
                     <span class="shop-item-title">Introduction to Algorithms</span>
                     <img class="shop-item-image" src="images/books/introToAlg.jpg">
@@ -56,7 +73,7 @@
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div> <br>
                  <div class="shop-item">
                     <span class="shop-item-title">Starting Out With C++ From Control Structures Through Objects</span>
                     <img class="shop-item-image" src="images/books/C++.jpg">
@@ -78,7 +95,7 @@
                         <span class="shop-item-price">$19.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div> <br>
                 <div class="shop-item">
                     <span class="shop-item-title">The Norton Anthology of World Literature: Shorter Third Edition: Volume 2</span>
                     <img class="shop-item-image" src="images/books/NAWL2.jpg">
@@ -86,7 +103,7 @@
                         <span class="shop-item-price">$6.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div> <br>
                 <div class="shop-item">
                     <span class="shop-item-title">Rules for Writers</span>
                     <img class="shop-item-image" src="images/books/RulesforWriters.jpg">
@@ -123,7 +140,7 @@
                         <span class="shop-item-price">$19.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div><br>
                 <div class="shop-item">
                     <span class="shop-item-title">Citizen 13660</span>
                     <img class="shop-item-image" src="images/books/Citizen13660.jpg">
@@ -131,28 +148,28 @@
                         <span class="shop-item-price">$6.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div><br>
                 <div class="shop-item">
                     <span class="shop-item-title">The Lost City of Z: A Tale of Deadly Obsession in the Amazon</span>
                     <img class="shop-item-image" src="images/books/LostCity.jpg">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$6.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
+                    </div><br>
                 </div><div class="shop-item">
                     <span class="shop-item-title">Night</span>
                     <img class="shop-item-image" src="images/books/Night.jpg">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$6.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
+                    </div><br>
                 </div><div class="shop-item">
                     <span class="shop-item-title">When Broken Glass Floats: Growing Up Under the Khmer Rouge</span>
                     <img class="shop-item-image" src="images/books/BrokenGlass.jpg">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$6.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                    </div>
+                    </div><br>
                 </div><div class="shop-item">
                     <span class="shop-item-title">Working Toward Whiteness</span>
                     <img class="shop-item-image" src="images/books/WorkingToward.jpg">
@@ -174,7 +191,7 @@
                         <span class="shop-item-price">$19.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div><br>
                 <div class="shop-item">
                     <span class="shop-item-title">Developing Cybersecurity Programs And Policies</span>
                     <img class="shop-item-image" src="images/books/DevCyberSec.jpg">
@@ -196,16 +213,16 @@
                         <span class="shop-item-price">$19.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div><br>
                 <div class="shop-item">
-                    <span class="shop-item-title">	Elementary Introduction to Number Theory</span>
+                    <span class="shop-item-title">  Elementary Introduction to Number Theory</span>
                     <img class="shop-item-image" src="images/books/NumTheory.jpg">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$6.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
-            </div>
+            </div><br>
             <div class="shop-items">
                 <div class="shop-item">
                     <span class="shop-item-title">Essential Calculus: Early Transcendental Functions</span>
@@ -214,7 +231,7 @@
                         <span class="shop-item-price">$19.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div><br>
                 <div class="shop-item">
                     <span class="shop-item-title">Essentials of PreCalculus with Calculus Previews</span>
                     <img class="shop-item-image" src="images/books/Precalc.jpg">
@@ -223,7 +240,7 @@
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
-            </div>
+            </div><br>
             <div class="shop-items">
                 <div class="shop-item">
                     <span class="shop-item-title">Introductory Statistics</span>
@@ -232,7 +249,7 @@
                         <span class="shop-item-price">$19.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div><br>
                 <div class="shop-item">
                     <span class="shop-item-title">Linear Algebra and Its Applications</span>
                     <img class="shop-item-image" src="images/books/LinAlg.jpg">
@@ -295,7 +312,7 @@
                         <span class="shop-item-price">$19.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div><br>
                 <div class="shop-item">
                     <span class="shop-item-title">The New American Bible: Revised Edition</span>
                     <img class="shop-item-image" src="images/books/NewAmerBible.jpg">
@@ -303,7 +320,7 @@
                         <span class="shop-item-price">$6.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                </div>
+                </div><br>
                 <div class="shop-item">
                     <span class="shop-item-title">Uncommon Faithfulness</span>
                     <img class="shop-item-image" src="images/books/UncommFaith.jpg">
@@ -319,9 +336,9 @@
         <section class="container content-section">
             <h2 class="section-header">CART</h2>
             <div class="cart-row">
-                <span class="cart-item cart-header cart-column">ITEM</span>
+               <!-- <span class="cart-item cart-header cart-column">ITEM</span>
                 <span class="cart-price cart-header cart-column">PRICE</span>
-                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>-->
             </div>
             <div class="cart-items">
             </div>
@@ -331,10 +348,13 @@
             </div>
             <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section>
+                          
         <footer class="main-footer">
             <div class="container main-footer-container">
-                <br><br><br> The Capstone Library's online shop is powered by Web Dev Simplified.
+                <br><br><br>  
+                <p> The Handler Library's online shop is powered by Web Dev Simplified. </p>
             </div>
+        
         </footer>
     </body>
 </html>

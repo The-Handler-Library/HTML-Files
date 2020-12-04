@@ -12,7 +12,7 @@
     }
 </style>
 <?php
-include('DB.php');
+include('classes/DB.php');
 require_once('header.php');
 $userid = $_SESSION['userid'];
 
