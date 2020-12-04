@@ -6,16 +6,16 @@
  
 
       <?php
-      // First we grab the tokens from the URL.
+      // Gets tokens from URL
       $selector = $_GET['selector'];
       $validator = $_GET['validator'];
 
-      // Then we check if the tokens are here.
+      //Checks user has tokens 
       if (empty($selector) || empty($validator)) {
         echo "No user token found.";
       } else {
-        // Here we check if all characters in our tokens are hexadecimal 'digits'. This is a boolean. Again another error check to make sure the URL wasn't changed by the user.
-        // If this check returns "true", we show the form that the user uses to reset their password.
+        // Ensures URL was not changed by user
+        // Shpws form to user if true
         if (ctype_xdigit( $selector ) !== false && ctype_xdigit( $validator ) !== false) {
           ?>
 
