@@ -34,7 +34,7 @@ if (isset($_POST['reset-request-submit'])) {
   $sql = "DELETE FROM pwdReset WHERE pwdResetEmail=?";
   $stmt = mysqli_stmt_init($conn);
   if (!mysqli_stmt_prepare($stmt, $sql)) {
-    echo "There was an errorw!";
+    echo "Error!";
     exit();
   } else {
     mysqli_stmt_bind_param($stmt, "s", $userEmail);
@@ -45,7 +45,7 @@ if (isset($_POST['reset-request-submit'])) {
   $sql = "INSERT INTO pwdReset (pwdResetEmail, pwdResetSelector, pwdResetToken, pwdResetExpires) VALUES (?, ?, ?, ?)";
   $stmt = mysqli_stmt_init($conn);
   if (!mysqli_stmt_prepare($stmt, $sql)) {
-    echo "There was an errorw!";
+    echo "Error!";
     exit();
   } else {
     //Token is hashed using standard php encrption
