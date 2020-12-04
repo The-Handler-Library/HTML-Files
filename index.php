@@ -8,7 +8,7 @@
             <div class="buttons">
                     <?php
                 if(isset($_SESSION["useruid"])){
-                    echo "<p>You are signed in " . $_SESSION["useruid"]. "</p>" ;
+                    echo "<p>You are signed in, " . $_SESSION["useruid"]. "</p>" ;
                    
                 }
                 
