@@ -7,7 +7,8 @@
 
 .wrapper {
    /* background-image: linear-gradient(to bottom right, cyan, blue);*/
-    background: URL(overlay6.jpg)no-repeat;
+    background-image: URL(overlay6.jpg);
+    background-repeat: repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -28,7 +29,7 @@
     width: 10em;
     height: 10em;
     opacity:100%;
-    clip-path: circle(48.8% at 50% 50%);
+clip-path: circle(48.8% at 50% 50%);
 
 
 }
@@ -42,6 +43,8 @@
     margin: 2em;
     display: inline-block;
     line-height: 1;
+     text-align: center;
+    font-size: 1;
 }
 
 .navbar ul li a{ 
@@ -49,6 +52,9 @@
     font-size: 10;
     font-family: 'bebas', sans-serif;
     text-decoration: none;
+      display: block;
+      margin-left:auto;
+      margin-right:auto;
     
     
 } 
@@ -136,7 +142,7 @@ h3{
     text-align: center;
     position: relative;
     top: -245px;
-   ;
+   
    
     
     
@@ -241,13 +247,13 @@ h2 {
       margin-right:auto;
    text-align:center;
     font-family: "bebas";
-    color: #364b6e;
+    color: white;
 
 }
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: cyan;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -262,16 +268,23 @@ button {
 
 
 button:hover {
+    background-color: white;
+  color: cyan;
   opacity:1;
+    transition: 0.9;
+     transition-duration: 0.4s;
 }
 
 
 
 
 /* Add padding to container elements */
-.container {
+.container  {
   padding: 16px;
 text-align: center;
+    text-decoration: none;
+    color: red;
+    font-family:"bebas";
 }
 
 section{
@@ -305,7 +318,62 @@ main p {
 
 h4{
      font-family:"bebas";
-    color: #364b6e;
+    color: white;
 }
 
 
+h5{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: linear-gradient( grey, darkgray);
+    text-align: center;
+    font-family:"lato";
+    color: black;
+    font-size: 175%;
+     border: 3px double darkslategrey;
+    
+}
+p2 {
+    background: linear-gradient(45deg, grey, darkgray);
+    opacity: 0.90;
+    filter: alpha(opacity=40);
+    margin-bottom: 1%;
+    border-right-width: 2em;
+    border: 3px double darkslategrey;
+    border-radius: 5px;
+    width: 50%;
+ 
+    font-size: 125%;
+
+    font-family: "lato";
+    color:black;
+    text-align: center;
+      display: block;
+      margin-left:auto;
+      margin-right:auto;
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    
+    
+    color:cyan;
+    text-decoration:none;
+    list-style-type: none;
+    
+}
+strong{
+    text-align: center;
+    display: block;
+      margin-left:auto;
+      margin-right:auto;
+}
+hr{
+    color: antiquewhite;
+    text-align:center;
+    display: block;
+      margin-left:auto;
+      margin-right:auto;
+}
